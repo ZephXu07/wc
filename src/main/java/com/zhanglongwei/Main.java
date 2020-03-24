@@ -135,12 +135,14 @@ public class Main {
         StringBuffer sb = new StringBuffer();
         try {
             fr = new FileReader(filePath);
-            //使用缓冲字符流进行包装
             br = new BufferedReader(fr);
+            //使用缓冲字符流进行包装
             while ((tempString = br.readLine()) != null) {
                 //br.readLine()方法的返回值是一个字符串对象，即文本中的一行内容，所以对每一行进行判断
                 lineSum ++;
                 //每读一行，总行数增加
+                charLength  += tempString.length();
+                //字符数为每一行的字符数之和
                 if (tempString.length() <= 1) {
                     blankLine ++;
                     continue;
@@ -163,8 +165,7 @@ public class Main {
                 }
                 sb.append(tempString);
                 //添加每一行注释到StringBuffer对象
-                charLength  += tempString.length();
-                //字符数为每一行的字符数之和
+
             }
             wordSum = pattern(sb);
             //统计单词数

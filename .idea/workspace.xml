@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26431ce-e3e4-44dd-ba84-c46a99b29c41" name="Default Changelist" comment="" />
+    <list default="true" id="d26431ce-e3e4-44dd-ba84-c46a99b29c41" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhanglongwei/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhanglongwei/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhanglongwei/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhanglongwei/Main.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -109,10 +116,37 @@
       <workItem from="1584676819952" duration="9351000" />
       <workItem from="1584760429542" duration="12465000" />
       <workItem from="1584777883832" duration="11564000" />
+      <workItem from="1584801633760" duration="58000" />
+      <workItem from="1584940736505" duration="4876000" />
+      <workItem from="1585036879351" duration="3157000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhanglongwei/Main.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
